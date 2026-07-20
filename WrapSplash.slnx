@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="WrapSplash.NET\WrapSplash.NET.csproj" />
+  <Project Path="WrapSplash.NET.Tests\WrapSplash.NET.Tests.csproj" />
+</Solution>

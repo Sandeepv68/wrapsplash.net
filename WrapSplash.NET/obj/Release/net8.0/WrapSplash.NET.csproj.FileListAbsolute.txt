@@ -1,0 +1,15 @@
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\bin\Release\net8.0\WrapSplash.NET.deps.json
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\bin\Release\net8.0\WrapSplash.NET.dll
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\bin\Release\net8.0\WrapSplash.NET.pdb
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\bin\Release\net8.0\WrapSplash.NET.xml
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.csproj.AssemblyReference.cache
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.AssemblyInfoInputs.cache
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.AssemblyInfo.cs
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.csproj.CoreCompileInputs.cache
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.sourcelink.json
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.dll
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\refint\WrapSplash.NET.dll
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.xml
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\WrapSplash.NET.pdb
+C:\Users\sande\OneDrive\Desktop\wrapsplash\WrapSplash.NET\obj\Release\net8.0\ref\WrapSplash.NET.dll

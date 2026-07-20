@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WrapSplash.NET</name>
+    </assembly>
+    <members>
+        <member name="T:WrapSplash.Models.WrapSplashException">
+            <summary>
+            Exception thrown by the WrapSplash client when an API request fails.
+            </summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashException.StatusCode">
+            <summary>The HTTP status code of the failed request, if available.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashException.StatusText">
+            <summary>The HTTP status text of the failed request, if available.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashException.Cause">
+            <summary>The original exception that caused this error, if available.</summary>
+        </member>
+        <member name="T:WrapSplash.Models.WrapSplashOptions">
+            <summary>
+            Options for configuring the WrapSplash client.
+            </summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.AccessKey">
+            <summary>Unsplash API access key.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.SecretKey">
+            <summary>Unsplash API secret key.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.RedirectUri">
+            <summary>OAuth redirect URI.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.Code">
+            <summary>OAuth authorization code.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.BearerToken">
+            <summary>Bearer token for authenticated requests. When set, AccessKey/SecretKey/RedirectUri/Code are not required.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.Timeout">
+            <summary>HTTP request timeout in milliseconds. Default is 10000 (10 seconds).</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.Retries">
+            <summary>Number of retry attempts for failed requests. Default is 2.</summary>
+        </member>
+        <member name="P:WrapSplash.Models.WrapSplashOptions.RetryDelayMs">
+            <summary>Delay between retry attempts in milliseconds. Default is 100.</summary>
+        </member>
+        <member name="T:WrapSplash.Services.WrapSplashClient">
+            <summary>
+            A .NET client for the Unsplash API.
+            </summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.#ctor(WrapSplash.Models.WrapSplashOptions)">
+            <summary>
+            Initialize the client with API credentials or a bearer token.
+            </summary>
+            <param name="options">Configuration options for authentication.</param>
+            <exception cref="T:WrapSplash.Models.WrapSplashException">Thrown when required options are missing.</exception>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetCurrentUserProfileAsync">
+            <summary>Get the current authenticated user's profile.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.UpdateCurrentUserProfileAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>Update the current authenticated user's profile.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetPublicProfileAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Get a user's public profile.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetUserPortfolioAsync(System.String)">
+            <summary>Get a user's portfolio.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetUserPhotosAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,System.Nullable{System.Int32},System.String)">
+            <summary>Get a user's photos.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetUserLikedPhotosAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>Get a user's liked photos.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetUserCollectionsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Get a user's collections.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetUserStatisticsAsync(System.String,System.String,System.Nullable{System.Int32})">
+            <summary>Get a user's statistics.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.ListPhotosAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>List photos.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.ListCuratedPhotosAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>List curated photos.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetAPhotoAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>Get a photo by ID.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetPhotoAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String)">
+            <summary>Get a photo by ID (alias).</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetARandomPhotoAsync(System.String,System.Nullable{System.Boolean},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32})">
+            <summary>Get a random photo.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetRandomPhotoAsync(System.String,System.Nullable{System.Boolean},System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Nullable{System.Int32})">
+            <summary>Get a random photo (alias).</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetPhotoStatisticsAsync(System.String,System.String,System.Nullable{System.Int32})">
+            <summary>Get photo statistics.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetPhotoLinkAsync(System.String)">
+            <summary>Get a photo download link.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.UpdatePhotoAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>Update a photo's location and EXIF data.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.LikePhotoAsync(System.String)">
+            <summary>Like a photo.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.UnlikePhotoAsync(System.String)">
+            <summary>Unlike a photo.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GenerateBearerTokenAsync">
+            <summary>Exchange the authorization code for a bearer token.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.SearchAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String)">
+            <summary>Search photos.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.SearchCollectionsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Search collections.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.SearchUsersAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Search users.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetStatsTotalsAsync">
+            <summary>Get total stats.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetStatsMonthAsync">
+            <summary>Get monthly stats.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.ListCollectionsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>List collections.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.ListFeaturedCollectionsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>List featured collections.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.ListCuratedCollectionsAsync(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>List curated collections.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetCollectionAsync(System.String)">
+            <summary>Get a collection by ID.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetCuratedCollectionAsync(System.String)">
+            <summary>Get a curated collection by ID.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetCollectionPhotosAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Get photos in a collection.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.GetCuratedCollectionPhotosAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>Get photos in a curated collection.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.ListRelatedCollectionsAsync(System.String)">
+            <summary>List related collections.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.CreateNewCollectionAsync(System.String,System.String,System.Boolean)">
+            <summary>Create a new collection.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.CreateCollectionAsync(System.String,System.String,System.Boolean)">
+            <summary>Create a collection (alias).</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.UpdateExistingCollectionAsync(System.String,System.String,System.String,System.Boolean)">
+            <summary>Update an existing collection.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.UpdateCollectionAsync(System.String,System.String,System.String,System.Boolean)">
+            <summary>Update a collection (alias).</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.DeleteCollectionAsync(System.String)">
+            <summary>Delete a collection.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.AddPhotoToCollectionAsync(System.String,System.String)">
+            <summary>Add a photo to a collection.</summary>
+        </member>
+        <member name="M:WrapSplash.Services.WrapSplashClient.RemovePhotoFromCollectionAsync(System.String,System.String)">
+            <summary>Remove a photo from a collection.</summary>
+        </member>
+    </members>
+</doc>
