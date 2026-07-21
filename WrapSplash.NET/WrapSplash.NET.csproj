@@ -14,7 +14,7 @@
     <Description>A simple .NET wrapper module for the Unsplash API. Port of the popular wrapsplash npm package.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/SandeepVattapparambil/wrapsplash</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/SandeepVattapparambil/wrapsplash.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Sandeepv68/wrapsplash.net.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>unsplash;api;images;photos;wrapper</PackageTags>
   </PropertyGroup>

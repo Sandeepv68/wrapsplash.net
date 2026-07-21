@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-[![CI](https://github.com/SandeepVattapparambil/wrapsplash.net/actions/workflows/ci.yml/badge.svg)](https://github.com/SandeepVattapparambil/wrapsplash.net/actions/workflows/ci.yml)
+[![CI](https://github.com/Sandeepv68/wrapsplash.net/actions/workflows/ci.yml/badge.svg)](https://github.com/Sandeepv68/wrapsplash.net/actions/workflows/ci.yml)
 
 WrapSplash.NET is a simple, async-first API wrapper for the popular [Unsplash](https://unsplash.com/) platform, built for .NET 8.0+. It provides full coverage of the Unsplash API with built-in retry policies, OAuth 2.0 and Bearer Token authentication, and a clean, ergonomic C# API surface.
 
@@ -978,7 +978,7 @@ catch (WrapSplashException ex)
 
 ```bash
 # Clone the repository
-git clone https://github.com/SandeepVattapparambil/wrapsplash.net.git
+git clone https://github.com/Sandeepv68/wrapsplash.net.git
 cd wrapsplash.net
 
 # Restore dependencies
