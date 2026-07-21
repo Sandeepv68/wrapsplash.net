@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/logo.png" alt="WrapSplash.NET" />
+</p>
+
 # WrapSplash.NET
 
 [![NuGet](https://img.shields.io/nuget/v/WrapSplash.svg)](https://www.nuget.org/packages/WrapSplash)
