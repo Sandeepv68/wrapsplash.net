@@ -33,6 +33,7 @@ jobs:
     needs: build-and-test
     if: github.event_name == 'release'
     runs-on: ubuntu-latest
+    environment: production
     permissions:
       id-token: write
 
