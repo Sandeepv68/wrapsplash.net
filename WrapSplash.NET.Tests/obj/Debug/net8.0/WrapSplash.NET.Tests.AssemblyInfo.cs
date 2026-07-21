@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WrapSplash.NET.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91146bb67097a8463aa14140ef3e4eae67cb8ab1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1a45d6fd10e7922edb6ce3ccce32253735965c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WrapSplash.NET.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WrapSplash.NET.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,7 +9,7 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>WrapSplash</PackageId>
-    <Version>5.0.0</Version>
+    <Version>1.0.0</Version>
     <Authors>Sandeep Vattapparambil</Authors>
     <Description>A simple .NET wrapper module for the Unsplash API. Port of the popular wrapsplash npm package.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
