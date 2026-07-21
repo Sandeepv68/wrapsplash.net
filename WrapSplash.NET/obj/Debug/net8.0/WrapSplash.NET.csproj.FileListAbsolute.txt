@@ -27,3 +27,4 @@ C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET\obj\Debug\net8.0\r
 C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET\obj\Debug\net8.0\WrapSplash.NET.xml
 C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET\obj\Debug\net8.0\WrapSplash.NET.pdb
 C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET\obj\Debug\net8.0\ref\WrapSplash.NET.dll
+C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET\obj\Debug\net8.0\WrapSplash.NET.sourcelink.json

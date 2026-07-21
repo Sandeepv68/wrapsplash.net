@@ -251,3 +251,4 @@ C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET.Tests\obj\Debug\ne
 C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET.Tests\obj\Debug\net8.0\WrapSplash.NET.Tests.pdb
 C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET.Tests\obj\Debug\net8.0\WrapSplash.NET.Tests.genruntimeconfig.cache
 C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET.Tests\obj\Debug\net8.0\ref\WrapSplash.NET.Tests.dll
+C:\Users\sande\OneDrive\Desktop\wrapsplash.net\WrapSplash.NET.Tests\obj\Debug\net8.0\WrapSplash.NET.Tests.sourcelink.json

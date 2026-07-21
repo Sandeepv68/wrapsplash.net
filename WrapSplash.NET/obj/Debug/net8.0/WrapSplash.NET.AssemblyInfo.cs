@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("A simple .NET wrapper module for the Unsplash API. Port of the popular wrapsplash" +
     " npm package."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("5.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("5.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("5.0.0+178052fd5540f4d780af42aa2ac0392e91887dfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WrapSplash.NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WrapSplash.NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("5.0.0.0")]
