@@ -231,7 +231,7 @@ If successful, the response will contain:
 
 ```json
 {
-    "access_token": "091343ce13c8ae780065ecb3b13dc903475dd22cb78a05503c2e0c69c5e98044",
+    "access_token": "YOUR_BEARER_TOKEN_HERE",
     "token_type": "bearer",
     "scope": "public read_photos write_photos",
     "created_at": 1436544465
@@ -243,7 +243,7 @@ Then use the bearer token:
 ```csharp
 var client = new WrapSplashClient(new WrapSplashOptions
 {
-    BearerToken = "091343ce13c8ae780065ecb3b13dc903475dd22cb78a05503c2e0c69c5e98044"
+    BearerToken = "YOUR_BEARER_TOKEN_HERE"
 });
 ```
 
@@ -1015,7 +1015,7 @@ On release creation, the CI pipeline additionally:
 
 [MIT](LICENSE)
 
-Copyright (c) 2018 - Sandeep Vattapparambil
+Copyright (c) 2026 - Sandeep Vattapparambil
 
 ## Acknowledgements
 
